@@ -1,0 +1,49 @@
+name: Description correction
+description: Report an inaccurate, unsupported, or outdated comparison statement.
+title: "[Correction]: "
+body:
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository entry
+      options:
+        - aipoch/medical-research-skills
+        - Master-cai/Research-Paper-Writing-Skills
+        - brycewang-stanford/Auto-Empirical-Research-Skills
+        - Imbad0202/academic-research-skills
+        - Yuan1z0825/nature-skills
+        - K-Dense-AI/scientific-agent-skills
+        - Galaxy-Dawn/claude-scholar
+        - Orchestra-Research/AI-Research-SKILLs
+        - Guide-wide or another section
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current text or claim
+      description: Quote the inaccurate or outdated wording and identify its section.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Provide concise replacement wording or explain what should be removed.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Upstream evidence
+      description: Link to current public documentation that supports the correction.
+    validations:
+      required: true
+  - type: input
+    id: observed_date
+    attributes:
+      label: Date checked
+      description: Enter the date the upstream documentation was reviewed.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true

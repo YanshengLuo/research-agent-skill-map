@@ -1,0 +1,73 @@
+last_reviewed: 2026-07-21
+repositories:
+  - name: medical-research-skills
+    owner: aipoch
+    url: https://github.com/aipoch/medical-research-skills
+    primary_category: biomedical and medical research
+    short_description: Domain-oriented skills for evidence, protocol design, data analysis, academic writing, and related medical research workflows.
+    best_for: Biomedical study planning, evidence synthesis, clinical or omics analysis planning, and scientific communication.
+    limitation: A large collection whose relevance, runtime requirements, and validation needs vary by individual skill.
+    last_verified: 2026-07-21
+
+  - name: Research-Paper-Writing-Skills
+    owner: Master-cai
+    url: https://github.com/Master-cai/Research-Paper-Writing-Skills
+    primary_category: machine-learning paper writing
+    short_description: A focused skill package for drafting and revising ML, computer-vision, and NLP research papers.
+    best_for: Section drafting, argument flow, claim-evidence alignment, and reviewer-style pre-submission checks.
+    limitation: Focuses on writing and self-review rather than analysis execution or project orchestration.
+    last_verified: 2026-07-21
+
+  - name: Auto-Empirical-Research-Skills
+    owner: brycewang-stanford
+    url: https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills
+    primary_category: empirical social science
+    short_description: A routed, vendored collection for empirical research with causal-inference, econometric, writing, and reproducibility workflows.
+    best_for: Quantitative social science using Python, R, or Stata, including causal designs and replication checks.
+    limitation: Primarily aligned with empirical social science rather than molecular, omics, or laboratory research.
+    last_verified: 2026-07-21
+
+  - name: academic-research-skills
+    owner: Imbad0202
+    url: https://github.com/Imbad0202/academic-research-skills
+    primary_category: academic workflow and integrity
+    short_description: A human-in-the-loop pipeline for research, drafting, review, revision, verification, and finalization.
+    best_for: Evidence-aware manuscript workflows, multi-perspective review, claim checks, and staged integrity gates.
+    limitation: Full orchestration is centered on Claude Code; Codex support is provided through a sibling distribution.
+    last_verified: 2026-07-21
+
+  - name: nature-skills
+    owner: Yuan1z0825
+    url: https://github.com/Yuan1z0825/nature-skills
+    primary_category: scientific communication and publication
+    short_description: Skills for source-aligned reading, writing, polishing, figures, statistics review, references, responses, and presentations.
+    best_for: Publication artifacts such as paper readers, manuscript sections, figures, reference audits, response letters, and slide decks.
+    limitation: Journal-style output and automated checks do not replace independent methodological validation.
+    last_verified: 2026-07-21
+
+  - name: scientific-agent-skills
+    owner: K-Dense-AI
+    url: https://github.com/K-Dense-AI/scientific-agent-skills
+    primary_category: multidisciplinary scientific computing
+    short_description: A broad library of scientific software, database, analysis, and research workflows across multiple disciplines.
+    best_for: Bioinformatics, chemistry, molecular and protein work, imaging, statistics, simulation, databases, and visualization.
+    limitation: Its breadth makes selective installation and review of per-skill dependencies important.
+    last_verified: 2026-07-21
+
+  - name: claude-scholar
+    owner: Galaxy-Dawn
+    url: https://github.com/Galaxy-Dawn/claude-scholar
+    primary_category: research project orchestration
+    short_description: A semi-automated workflow spanning literature, code, experiments, reporting, writing, and persistent project knowledge.
+    best_for: Long-running, software-heavy CS and AI research projects that need continuity across repeated work sessions.
+    limitation: Installation changes agent configuration, and the workflow is most closely aligned with computational CS and AI research.
+    last_verified: 2026-07-21
+
+  - name: AI-Research-SKILLs
+    owner: Orchestra-Research
+    url: https://github.com/Orchestra-Research/AI-Research-SKILLs
+    primary_category: AI research and engineering
+    short_description: Skills for AI-model architecture, training, post-training, evaluation, inference, infrastructure, agents, RAG, and research writing.
+    best_for: Research and engineering in which AI models or AI systems are themselves the object of study.
+    limitation: Specialized for AI systems rather than general biomedical, physical-science, or social-science methodology.
+    last_verified: 2026-07-21

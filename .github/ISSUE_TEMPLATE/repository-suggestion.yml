@@ -1,0 +1,53 @@
+name: Repository suggestion
+description: Suggest an open-source research-agent skill repository for the guide.
+title: "[Repository]: "
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping improve the map. Suggestions should be supported by current public upstream documentation.
+  - type: input
+    id: repository_url
+    attributes:
+      label: Repository URL
+      description: Link to the original public repository.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Primary category
+      description: Summarize the repository's main research domain or workflow role.
+      placeholder: Scientific computing, academic writing, empirical research, or another category
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for inclusion
+      description: Explain the decision problem this repository helps solve and how it differs from current entries.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence from upstream documentation
+      description: Link to README sections, documentation, or repository files supporting the proposed scope and capabilities.
+      placeholder: Include direct public links and a short explanation for each.
+    validations:
+      required: true
+  - type: dropdown
+    id: conflict
+    attributes:
+      label: Conflict of interest
+      description: Is the submitter an owner, maintainer, contributor, sponsor, employee, or otherwise affiliated with the suggested project?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: conflict_details
+    attributes:
+      label: Conflict details
+      description: If yes, briefly describe the relationship.
